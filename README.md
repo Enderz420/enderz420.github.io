@@ -2,7 +2,6 @@
 
 This is supposed only to be a test site to just deploy some projects.
 
-to view the site, [click this](enderz420.github.io) \
-or 
-copy this \
-``enderz420.github.io``
+to view the site go on \
+[enderz420.github.io](https://enderz420.github.io/)
+
