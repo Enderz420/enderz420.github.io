@@ -1,29 +1,26 @@
 @import url('../root_style.css');
 
+/* CSS reset used: http://seodesigns.com/projects/codepen/reset.css */
 .container {
-    display: grid; 
-
-   grid-template-rows: 1fr 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   
-   gap: 0px;
-   height: 100%;
+  width: 610px;
+  text-align: left;
+  margin: 0px auto 80px auto;
+  justify-content: center;
+  display: grid;
 }
+.inner-left {
+  width: 220px;
+  float: left;
+  text-align: center;
+  margin-top: 77px;
+  justify-content: center;
 
-#film {
-   background-color: var(--color-surface); 
-   grid-row-start: 1;
-   grid-column-start: 1;
-
-   grid-row-end: 3;
-   grid-column-end: 3;
 }
-
-#guess {
-   background-color: var(--color-surface-mixed); 
-   grid-row-start: 1;
-   grid-column-start: 4;
-
-   grid-row-end: 3;
-   grid-column-end: 6;
+h2 {
+  margin-bottom: 10px
+}
+ul {
+   padding-left: 25%;
+   border-radius: 5%;
+   background-image: linear-gradient(#83657d, #ab96a6);
 }
