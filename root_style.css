@@ -1,0 +1,60 @@
+:root {
+  /** Dark theme primary colors */
+  --color-primary-a0: #db21cc;
+  --color-primary-a10: #e14ad2;
+  --color-primary-a20: #e766d8;
+  --color-primary-a30: #ed7fde;
+  --color-primary-a40: #f196e4;
+  --color-primary-a50: #f5abe9;
+
+  /** Dark theme surface colors */
+  --color-surface-a0: #121212;
+  --color-surface-a10: #282828;
+  --color-surface-a20: #3f3f3f;
+  --color-surface-a30: #575757;
+  --color-surface-a40: #717171;
+  --color-surface-a50: #8b8b8b;
+
+  /** Dark theme mixed surface colors */
+  --color-surface-mixed-a0: #492143;
+  --color-surface-mixed-a10: #5c3756;
+  --color-surface-mixed-a20: #6f4e69;
+  --color-surface-mixed-a30: #83657d;
+  --color-surface-mixed-a40: #977d91;
+  --color-surface-mixed-a50: #ab96a6;
+  
+}
+
+body {
+  background-color: var(--color-surface-a0);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+#title {
+  text-align: center;
+  color: white;
+}

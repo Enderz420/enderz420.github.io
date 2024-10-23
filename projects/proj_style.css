@@ -1,0 +1,29 @@
+@import url('../root_style.css');
+
+.container {
+    display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+}
+
+#film {
+   background-color: var(--color-surface); 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+}
+
+#guess {
+   background-color: var(--color-surface-mixed); 
+   grid-row-start: 1;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 6;
+}
